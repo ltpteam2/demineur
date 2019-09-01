@@ -220,7 +220,7 @@ const App = () => {
           </div>
         ))}
       </div>
-      {!gameOver && (
+      {gameOver && (
         <div style={{ textAlign: "center", margintop: 50 }}>
           <Button
             isColor="success"
